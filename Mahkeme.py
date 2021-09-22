@@ -161,7 +161,7 @@ def show():
     p=""
     for i in result:
         p += str(i) + "\t" +"\n"
-    #str(i[1])+ "\t" +str(i[2])+str(i[3])+str(i[4])+str(i[5])+str(i[6])+str(i[7])+str(i[8])+str(i[9])+str(i[10])+str(i[11])+str(i[12])+str(i[13])+str(i[14])+str(i[15])+str(i[16])+str(i[17])+str(i[18])+str(i[19])+str(i[20])+str(i[21])+str(i[22])+str(i[23])+str(i[24])+str(i[25])+str(i[26])+str(i[27])+str(i[28])+str(i[29])+str(i[30])+str(i[31])+str(i[32])+str(i[33])+str(i[34])
+   
     labels=tk.Label(root,text=p)
     labels.place(x=0,y=28)
     conn.commit()
